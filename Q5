@@ -1,0 +1,14 @@
+#Q5
+a = int(input())              #first number
+operator = input().strip()    #operator; multiply
+b = int(input())              #second number
+
+if operator == '+':
+    result = a + b            #if operator is +, add a and b
+elif operator == '*':
+    result = a * b            #if operator is *, multiply a and b tgt
+else:
+    print("Invalid operator")
+    exit()                    #stops the program from continuing to execute when an invalid operator is entered
+
+print(result)
