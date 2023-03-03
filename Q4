@@ -1,0 +1,18 @@
+#Q4
+
+#wrongcode
+#numberChoice <- USERINPUT
+#IF numberChoice > 50 
+  #THEN
+    #OUTPUT "yes dream big
+  #ELSE
+    #OUTPUT "on the small side"
+#ENDIF
+
+
+number = int(input())
+
+if number > 50:
+    print("yes dream big")
+else:
+    print("on the small side")
