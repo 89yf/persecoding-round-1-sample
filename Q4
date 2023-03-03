@@ -16,3 +16,5 @@ if number > 50:
     print("yes dream big")
 else:
     print("on the small side")
+
+#simplest code of the first 4 qn lol
